@@ -12,6 +12,12 @@
 		"icon": "in"
 	},
 	{
+		"entryType": "time",
+		"name": "Ужин Radison",
+		"time": "18:00 – 20:00",
+		"icon": "dining"
+	},
+	{
 		"entryType": "date",
 		"name": "16 июня",
 		"time": "",
@@ -19,13 +25,13 @@
 	},
 	{
 		"entryType": "time",
-		"name": "Приветственный кофе-брейк, регистрация участников",
-		"time": "8:00 – 10:00",
+		"name": "Завтрак в отеле",
+		"time": "7:00 – 10:00",
 		"icon": "coffee"
 	},
 	{
 		"entryType": "time",
-		"name": "Официальное открытие мероприятия, панельная дискуссия",
+		"name": "Официальное открытие мероприятия",
 		"time": "10:00 – 12:00",
 		"icon": "tribune"
 	},
@@ -37,45 +43,33 @@
 	},
 	{
 		"entryType": "time",
-		"name": "Работа по отраслевым группам",
+		"name": "Работа на площадке",
 		"time": "12:30 – 14:00",
 		"icon": "speaker"
 	},
 	{
 		"entryType": "time",
-		"name": "Обед",
+		"name": "Кофе-брейк",
 		"time": "14:00 – 14:30",
-		"icon": "dining"
+		"icon": "coffee"
 	},
 	{
 		"entryType": "time",
-		"name": "Работа по отраслевым группам",
+		"name": "Работа на площадке",
 		"time": "14:30 – 16:30",
 		"icon": "speaker"
 	},
 	{
 		"entryType": "time",
 		"name": "Мастер-класс",
-		"time": "16:30 – 17:30",
+		"time": "16:30 – 18:30",
 		"icon": "camera"
 	},
 	{
 		"entryType": "time",
-		"name": "Кофе-брейк",
-		"time": "17:30 – 18:00",
-		"icon": "coffee"
-	},
-	{
-		"entryType": "time",
-		"name": "Свободное время",
-		"time": "18:00 – 19:00",
-		"icon": "time"
-	},
-	{
-		"entryType": "time",
-		"name": "Интер&shy;активная интел&shy;лек&shy;туальная программа",
-		"time": "19:00 – 23:00",
-		"icon": "wifi"
+		"name": "Ужин",
+		"time": "19:30 – 23:00",
+		"icon": "dining"
 	},
 	{
 		"entryType": "date",
@@ -85,50 +79,20 @@
 	},
 	{
 		"entryType": "time",
-		"name": "Приветственный кофе-брейк",
-		"time": "8:30 – 9:00",
-		"icon": "coffee"
-	},
-	{
-		"entryType": "time",
-		"name": "Образовательный блок Open-Space",
-		"time": "10:00 – 11:00",
-		"icon": "openspace"
-	},
-	{
-		"entryType": "time",
-		"name": "Кофе-брейк",
-		"time": "11:00 – 11:30",
+		"name": "Завтрак в отеле",
+		"time": "7:00 – 10:00",
 		"icon": "coffee"
 	},
 	{
 		"entryType": "time",
 		"name": "Командо&shy;образующее мероприятие",
-		"time": "11:30 – 13:30",
+		"time": "10:00 – 13:00",
 		"icon": "teambuild"
 	},
 	{
 		"entryType": "time",
-		"name": "Обед",
-		"time": "13:30 – 14:30",
-		"icon": "dining"
-	},
-	{
-		"entryType": "time",
-		"name": "Подведение итогов мероприятия",
-		"time": "14:30 – 15:30",
-		"icon": "summary"
-	},
-	{
-		"entryType": "time",
-		"name": "Кофе-брейк",
-		"time": "15:30 – 16:00",
-		"icon": "coffee"
-	},
-	{
-		"entryType": "time",
 		"name": "Отъезд участников",
-		"time": "c 16:00",
+		"time": "c 14:00",
 		"icon": "out"
 	}
 ]

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('./parts/head.html', {title: 'Главная'})
+</head>
+<body>
+	@@include('./parts/header.html')
+	<main id="main">
+		<section class="scrollspy" id="hero">
+			<div class="hero-content">
+				<h1 class="hero-text">
+					<span class="h1-left">
+						<span>Инноваци&shy;онные</span>
+						<span>техно&shy;логии</span>
+						<span>в госу&shy;дарст&shy;венном</span>
+						<span>управ&shy;лении</span>
+					</span>
+					<span class="h1-right">
+						'22
+					</span>
+				</h1>
+				<div class="mouse-icon"><i class="mdi mdi-mouse"></i><i class="mdi mdi-chevron-triple-down"></i></div>
+			</div>
+			<div class="hero-video">
+				<video class="lazy" autoplay muted loop playsinline data-src="/video/header_video.mp4|video/mp4"></video>
+			</div>
+		</section>
+		<section class="scrollspy" id="speakers">
+			<div class="line-wrapper">
+				<div class="line" id="line-1" data-speed=".2"></div>
+				<div class="line" id="line-2" data-speed=".5"></div>
+				<div class="line" id="line-3" data-speed=".1"></div>
+				<div class="line" id="line-4" data-speed=".8"></div>
+				<div class="line" id="line-5" data-speed="1.5"></div>
+				<div class="line" id="line-6" data-speed=".7"></div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col s12 center-align">
+						<h2>Спи&shy;керы</h2>
+					</div>
+				</div>
+				<div class="row flex speakers">
+					@@loop('./parts/speaker.html', './data/speakers.json')
+				</div>
+			</div>
+		</section>
+		<section class="scrollspy" id="program">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h2 class="green-text center-align">Про&shy;грамма</h2>
+					</div>
+				</div>
+				<div class="row flex vcenter">
+					<div class="col l6 m12">
+						<div class="program-wrapper">
+							<div class="program-indicator"></div>
+							@@loop('./parts/program-entry.html', './data/program.json')
+						</div>
+					</div>
+					<div class="col l6 hide-l-down">
+						<div class="lazy q contain" data-src="/img/map.svg"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="scrollspy" id="dresscode">
+			<div class="row flex vcenter">
+				 <div class="col s12 center-align">
+					 <h2 class="primary-text">Форма одеж&shy;ды</h2>
+				 </div>
+				 <div class="col l3 hide-l-down">
+					 <div class="lazy logo-side" data-src="/img/logo-left.svg"></div>
+				 </div>
+				 <div class="col l4 m6 s12 offset-l1">
+					 <div class="lazy casual contain" data-src="/img/casual.jpg"></div>
+				 </div>
+				 <div class="col l3 offset-l1 m6 s12">
+					 <h3 class="icon-h2 learn">Обу&shy;чение</h3>
+					 <h4>Стиль business casual</h4>
+					 <ul class="check-list">
+						 <li>Белая рубашка</li>
+						 <li>Белое поло</li>
+						 <li>Джинсы</li>
+						 <li>Кроссовки</li>
+						 <li>Туфли</li>
+					 </ul>
+				</div>
+			</div>
+			<div class="row flex vcenter">
+				<div class="col l2 offset-l1 m6 order-m1">
+					<h3 class="icon-h2 dinner">Ужин</h3>
+					<h4>Вечерний чёрно-белый стиль</h4>
+					<ul class="check-list">
+						<li>Коктейльное платье</li>
+						<li>Туфли</li>
+						<li>Рубашка</li>
+						<li>Брюки</li>
+					</ul>
+				</div>
+				<div class="col l6 m6">
+					<div class="lazy dinner contain" data-src="/img/dinner.jpg"></div>
+				</div>
+				<div class="col l3 hide-l-down">
+					<div class="lazy logo-side" data-src="/img/logo-right.svg"></div>
+				</div>
+			</div>
+		</section>
+		<section class="scrollspy" id="contacts">
+			<div id="map"></div>
+			<div class="container">
+				<div class="row flex">
+					<div class="col s12">
+						<h2 class="violet-text">Кон&shy;такты</h2>
+					</div>
+					<div class="col l6 m12">
+						<h3>Адрес</h3>
+						<p>
+							<a target="_blank" href="https://yandex.ru/maps/-/CCUJVDxp8A">г. Сочи, с. Сто-Садок, набережная «Панорама», 4</a>
+						</p>
+						<h3>Ответ&shy;ственные лица</h3>
+						<h4 class="kv-header">По вопросам организации трансфера к месту проживания</h4>
+						<div class="kv-section">
+							<div class="kv-block">
+								<div class="key">Кучуров Евгениий Викторович</div>
+								<div class="value">телефон: <a href="+79673011055">(967) 301-1055</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="col l6 m12">
+						<h4 class="kv-header">По общим орга&shy;низа&shy;ционным во&shy;про&shy;сам</h4>
+						<div class="kv-section">
+							<div class="kv-block">
+								<div class="key">Каташинский Станислав Леонидович</div>
+								<div class="value">телефон: <a href="+79034564740">(903) 456-4740</a></div>
+							</div>
+						</div>
+						<h4 class="kv-header">По вопросам размещения</h4>
+						<div class="kv-section">
+							<div class="kv-block">
+								<div class="key">Анпилова Екатерина Викторовна</div>
+								<div class="value">телефон: <a href="+79184742072">(918) 474-2072</a></div>
+							</div>
+							<div class="kv-block">
+								<div class="key">Каташинский Станислав Леонидович</div>
+								<div class="value">телефон: <a href="+79034564740">(903) 456-4740</a></div>
+							</div>
+							<div class="kv-block">
+								<div class="key">Коваленко Вера Ааревна</div>
+								<div class="value">телефон: <a href="+79182513041">(918) 251-3041</a></div>
+							</div>
+							<div class="kv-block">
+								<div class="key">Поголова Диана Александровна</div>
+								<div class="value">телефон: <a href="+79186497777">(918) 649-7777</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	@@include('./parts/footer.html')
+	@@include('./parts/scripts.html')
+</body>
+</html>

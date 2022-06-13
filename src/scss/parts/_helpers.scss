@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+body{
+
+	& * {
+
+		&:focus{
+			outline: none;
+		}
+	}
+
+	& .lazy{
+
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		&.q{
+			padding-bottom: 100%;
+		}
+
+		&.h{
+			padding-bottom: 65%;
+		}
+
+		&.v{
+			padding-bottom: 145%;
+		}
+
+		&.contain{
+			background-size: contain;
+		}
+	}
+
+	& .primary-text{
+		color: $primary;
+	}
+
+	& .line-wrapper{
+
+		position: relative;
+		position: absolute;
+		top: 3.5vmin;
+		left: 0;
+		width: 100%;
+		height: calc(100% - 7vmin);
+		transform-style: preserve-3d;
+		perspective: 200px;
+		overflow: hidden;
+		
+		& .line{
+			
+			position: absolute;
+			border-style: solid;
+			border-width: 2px;
+			
+			&#line-1{
+				border-color: $orange;
+				width: 0;
+				height: 25%;
+				left: 25vmax;
+				top: 5%;
+			}
+			
+			&#line-2{
+				
+				border-color: $orange;
+				width: 0;
+				top: 0;
+				height: 45%;
+				left: 35vmax;
+			}
+			
+			&#line-3{
+				border-color: $green-light;
+				width: 0;
+				height: 15%;
+				left: 40vmax;
+				top: 15%;
+			}
+			
+			&#line-4{
+				border-color: #fff;
+				width: 0;
+				height: 15%;
+				right: 40vmax;
+				bottom: 15%;
+			}
+
+			&#line-5{
+				border-color: $primary-light;
+				width: 0;
+				height: 45%;
+				right: 30vmax;
+				bottom: 0%;
+			}
+
+			&#line-6{
+				border-color: $orange;
+				width: 0;
+				height: 32%;
+				right: 15vmax;
+				bottom: 0%;
+			}
+		}
+	}
+
+	& .sidenav{
+
+		& .user-view{
+			height: 100px;
+			background: url(/img/logo-light.svg) center center no-repeat;
+		}
+	}
+}

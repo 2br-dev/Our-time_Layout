@@ -1,0 +1,46 @@
+footer{
+
+	background: $primary;
+	padding: 4vmax 0;
+	width: 100%;
+
+	& .footer-top{
+		border-bottom: 1px solid #fff;
+		padding: 20px 0;
+		display: flex;
+
+		@media(max-width: $medium){
+			display: block;
+		}
+
+		& .footer-logo{
+			display: inline-block;
+			width: 200px;
+			height: 40px;
+			background: url(/img/logo-dark.svg) center center no-repeat;
+			background-size: contain;
+		}
+
+		& .separator{
+			flex-grow: 1;
+		}
+
+		& .footer-nav{
+
+			& a{
+				padding: 0 10px;
+			}
+		}
+
+		& a{
+			color: #fff;
+		}
+	}
+
+	& .footer-bottom{
+		
+		@extend .footer-top;
+		color: #fff;
+		border-bottom: 0;
+	}
+}

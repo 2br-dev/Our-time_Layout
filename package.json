@@ -1,0 +1,25 @@
+{
+  "name": "our-time-landing",
+  "version": "1.0.0",
+  "description": "Our time website layout",
+  "main": "/release/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.10",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-buffer": "^0.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^7.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

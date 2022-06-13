@@ -316,6 +316,17 @@ main#main{
 						& .name-wrapper{
 							display: none;
 						}
+
+						&.date{
+
+							& .time-wrapper{
+
+								&:after{
+									font-weight: 600;
+									text-transform: uppercase;
+								}
+							}
+						}
 	
 						& .time-wrapper{
 	

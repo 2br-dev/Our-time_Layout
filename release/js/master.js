@@ -158,7 +158,7 @@ function initMap() {
       el.className = "marker";
       new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).setPopup(new mapboxgl.Popup({
         offset: 25
-      }).setHTML("<div class=\"popup-header\">".concat(feature.properties.title, "</div><div class=\"popup-description\"><p>\u0433. \u0421\u043E\u0447\u0438, \u0441. \u0421\u0442\u043E-\u0421\u0430\u0434\u043E\u043A, \u043D\u0430\u0431\u0435\u0440\u0435\u0436\u043D\u0430\u044F \xAB\u041F\u0430\u043D\u043E\u0440\u0430\u043C\u0430\xBB, 4</p><a target=\"_blank\" href=\"https://yandex.ru/maps/-/CCUJVDxp8A\">\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435</a></div>"))).addTo(map);
+      }).setHTML("<div class=\"popup-header\">".concat(feature.properties.title, "</div><div class=\"popup-description\"><p>\u0433. \u0421\u043E\u0447\u0438, \u0441. \u042D\u0441\u0442\u043E-\u0421\u0430\u0434\u043E\u043A, \u043D\u0430\u0431\u0435\u0440\u0435\u0436\u043D\u0430\u044F \xAB\u041F\u0430\u043D\u043E\u0440\u0430\u043C\u0430\xBB, 4</p><a target=\"_blank\" href=\"https://yandex.ru/maps/-/CCUJVDxp8A\">\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435</a></div>"))).addTo(map);
     }
   } catch (err) {
     _iterator.e(err);

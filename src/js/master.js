@@ -177,7 +177,7 @@ function initMap(){
             .setPopup(
                 new mapboxgl.Popup({offset: 25})
                     .setHTML(
-                        `<div class="popup-header">${feature.properties.title}</div><div class="popup-description"><p>г. Сочи, с. Сто-Садок, набережная «Панорама», 4</p><a target="_blank" href="https://yandex.ru/maps/-/CCUJVDxp8A">Подробнее</a></div>`
+                        `<div class="popup-header">${feature.properties.title}</div><div class="popup-description"><p>г. Сочи, с. Эсто-Садок, набережная «Панорама», 4</p><a target="_blank" href="https://yandex.ru/maps/-/CCUJVDxp8A">Подробнее</a></div>`
                     )
             )
             .addTo(map);

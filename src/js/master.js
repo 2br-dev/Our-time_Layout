@@ -38,7 +38,7 @@ function removeHover1(e){
     let el = $(this).parents('.speaker')[0];
 }
 
-var coords = [40.2952563, 43.6727759]; 
+var coords = [40.2974318982569, 43.672768568431955]; 
 var zoom = 15;
 
 function scrollNav(e){

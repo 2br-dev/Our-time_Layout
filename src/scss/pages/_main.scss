@@ -425,6 +425,47 @@ main#main{
 			}
 		}
 
+		&#media-report{
+
+			& .container{
+
+				& > .row{
+
+					display: flex;
+					flex-wrap: wrap;
+
+					& .lazy{
+						margin-bottom: 20px;
+					}
+
+					& h3{
+						margin-top: 0;
+					}
+
+					& > .col:nth-child(2){
+						
+						& > .row{
+
+							display: flex;
+							flex-direction: column;
+							height: 100%;
+
+							& .col:nth-child(2){
+
+								height: calc(100% - 130px);
+
+								& video{
+									height: calc(100% - 20px);
+									object-fit: cover;
+									margin: 0 !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
 		&#contacts{
 			background: #fff;
 

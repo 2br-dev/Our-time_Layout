@@ -112,4 +112,12 @@ body{
 			background: url(/img/logo-light.svg) center center no-repeat;
 		}
 	}
+
+	& .btn{
+		display: inline-block;
+		line-height: 40px;
+		padding: 0 20px;
+		color: #fff;
+		background: $violet;
+	}
 }
